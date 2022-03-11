@@ -41,8 +41,7 @@ if __name__ == '__main__':
             if (
                 contacts_list[i][0] == contacts_list[k][0] and 
                 contacts_list[i][1] == contacts_list[k][1]
-            ):
-                print(f'{contacts_list[i][0]} match')
+            ):                
                 for field in range(2, len(contacts_list[0])):
                     if (
                         (contacts_list[i][field] !=
